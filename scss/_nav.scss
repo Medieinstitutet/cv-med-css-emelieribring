@@ -1,0 +1,30 @@
+.nav-meny{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+}
+
+.emelier{
+    position: relative;
+    color: #fff;
+    width: 50%;
+    order: 1;
+    left: 30px;
+}
+
+.nav-text{
+    position: relative;
+    color: #D3DCE5;
+    width: 50%;
+    order: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.span{
+    padding: 20px;
+}

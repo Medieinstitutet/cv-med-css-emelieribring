@@ -1,0 +1,73 @@
+.about-side{
+    background-color: rgb(34, 37, 52,);
+    border: 5px solid #ffffff;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding: 5%;
+    flex-wrap: wrap;
+  }
+
+  .abouttext{
+    width: 40%;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 0px 30px 5px #afe0fc;
+    position: relative;
+    margin-left: 5%;
+    color: #fff;
+    padding: 5%;
+    font-size: 1.5vw;
+  }
+
+  .emelierubrik{
+    font-family: Lemon Love;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .imgme{
+    position: relative;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 0px 30px 5px #afe0fc;
+  }
+
+  .boxarabout{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100vh;
+}
+
+.boxabout{
+    width: 100%;
+    background-color: rgb(34, 37, 52, 0.5);
+    position: relative;
+    border: 5px solid #ffffff;
+    margin: 5%;
+    margin-top: 10%;
+    box-shadow: 0px 0px 30px 5px #c7c6fd;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center ;
+    justify-items: center;
+}
+
+#box3about{
+    background-image: url(../Photos/medog.png);
+    background-position: 50% 30%;
+    background-size: cover;
+}
+
+.rubrikabout{
+    align-self: center;
+    font-family: Lemon Love;
+    font-size: 80px;
+    position: absolute;
+    top: -110px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000;
+}     

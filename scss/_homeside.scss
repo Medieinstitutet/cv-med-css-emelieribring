@@ -1,0 +1,78 @@
+.emelie-side{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../Photos/pexels-pixabay-277509.jpg);
+    background-position: 10% 30%;
+}
+
+h2{
+    position: relative;
+    font-size: 9vw;
+    letter-spacing: 15px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0,70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+}
+
+#blockchain{
+    font-size: 5vw;
+}
+
+.welcomedown{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top:70%;
+    display: flex;
+}
+
+.hi{
+    width: 100%;
+    font-size: 7vw;
+    position: relative;
+    color: #D3DCE5;
+    z-index: 1;
+    word-spacing: 100px;
+    left: 25%;
+}
+
+.welcome{
+    width: 100%;
+    font-size: 7vw;
+    position: relative;
+    color: #D3DCE5;
+    z-index: 1;
+    word-spacing: 100px;
+    left: -25%;
+}
+
+.arr{
+    width: 100%;
+    font-size: 7vw;
+    z-index: 2;
+    position: relative;
+    color: #D3DCE5;
+    left: 2%;
+    top: -20px;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes arrow {
+    50% {bottom: 10px}
+    50% {top: 10px}
+  }
+
